@@ -34,7 +34,7 @@ Oyunun her bir seviyesi belirli bir temel değer üzerine kurgulanmıştır:
 ### 1. Projeyi Yerel Bilgisayara Yükleme
 Projeyi kendi bilgisayarınıza indirmek için terminale şu komutu yazın:
 ```bash
-git clone [https://github.com/kullaniciadi/ahlaki-deger-egitimi.git](https://github.com/kullaniciadi/ahlaki-deger-egitimi.git)
+git clone [https://github.com/MusaHasimoglu/AHLAKI-DEGER-EGITIMI-OYUNU.git](https://github.com/MusaHasimoglu/AHLAKI-DEGER-EGITIMI-OYUNU.git)
 ```
 
 ### 2. Gerekli Kütüphanelerin Yüklenmesi
