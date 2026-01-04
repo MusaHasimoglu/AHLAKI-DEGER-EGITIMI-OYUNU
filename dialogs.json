@@ -1,0 +1,1251 @@
+{
+
+  "bolum1": {
+    "START": {
+      "npc_text": "(Birisi gelip sıranın en önüne geçer ve kaynak yapar.)",
+      "options": [
+        {
+          "text": "Merhaba, sanırım bizi fark etmediniz. Adil olması için sıranın sonuna geçmeniz gerekiyor.",
+          "next": "NODE_A",
+          "feedback": "Haklı olduğunuz bir durumda bile nezaketinizi koruyarak iletişime başladınız. Bu tavır, çatışmayı tırmandırmadan çözüm aramanın en etik yoludur."
+        },
+        {
+          "text": "Hop! Sen kimsin de en öne geçiyorsun? Çabuk arkaya ikile, belanı arama!",
+          "next": "NODE_B",
+          "feedback": "Haksızlığa karşı öfke duymanız normal ancak saldırgan bir dil seçtiniz. Bu yaklaşım genellikle karşı tarafın hatasını anlamasını değil, size karşı savunma yapmasını sağlar."
+        }
+      ]
+    },
+    "NODE_A": {
+      "npc_text": "Hadi oradan! Çok vaktin varsa sen bekle, benim acelem var.",
+      "options": [
+        {
+          "text": "Sizin vaktiniz değerliyse buradaki insanların vakti de değerli. Onların hakkına girmek size yakışıyor mu?",
+          "next": "NODE_A1",
+          "feedback": "Sadece kendi hakkınızı değil, toplumsal düzeni ve diğer insanların hakkını da ön planda tuttunuz. Mantıklı ve sağduyulu bir duruş sergilediniz."
+        },
+        {
+          "text": "Aman ne halin varsa gör, seninle uğraşamayacağım. Saygısızlık diz boyu zaten.",
+          "next": "NODE_A2",
+          "feedback": "Sorundan kaçınmayı ve iletişimi koparmayı seçtiniz. Saygısızlığa sessiz kalmak, bazen o hatanın tekrarlanmasına neden olabilir; daha yapıcı olabilirdiniz."
+        }
+      ]
+    },
+    "NODE_B": {
+      "npc_text": "Sana ne be? Sen mi öğreteceksin bana nereye geçeceğimi? Geçmiyorum!",
+      "options": [
+        {
+          "text": "Kusura bakmayın, sert çıktım ama haksızlık yapmanız beni üzdü. Gelin kurallara uyalım, huzurumuz bozulmasın.",
+          "next": "NODE_B1",
+          "feedback": "İlk baştaki sert tavrınızı fark edip geri adım atmanız büyük bir olgunluk. Hatalı bir tepkiyi nezaketle düzeltmeye çalışmak erdemli bir davranıştır."
+        },
+        {
+          "text": "Sen ancak güçten anlarsın. Gel de geçme bakalım o sıraya, şimdi görürsün!",
+          "next": "NODE_B2",
+          "feedback": "İletişimi tamamen koparıp güce dayalı bir tehdit savurdunuz. Bu tutum, haklı olduğunuz bir davada sizi etik olarak haksız duruma düşürür."
+        }
+      ]
+    },
+    "NODE_A1": {
+      "npc_text": "Şey... Onları fark etmemiştim ama benim de gerçekten çok acelem var! Neden bu kadar üstüme geliyorsun ki, alt tarafı bir sıra değil mi?",
+      "options": [
+        {
+          "text": "Küçük bir sıra deyip geçme, göstereceğin saygı kaliteni belirler. Arkaya geçip örnek bir vatandaş ol, sana yakışan budur.",
+          "next": "FINISH_A1_1",
+          "feedback": "Mükemmel bir denge! Haklılığını kaba bir güçle değil, nezaketle birleşmiş bir kararlılıkla savundun. Bu yaklaşım, gerçek hayatta da kapıları açan en güçlü anahtardır."
+        },
+        {
+          "text": "Hala alt tarafı bir sıra diyorsunuz! Eğer geçmezseniz otobüs şoförü geldiğinde şikayetçi olacağım.",
+          "next": "FINISH_A1_2",
+          "feedback": "Son anda sabrınızı yitirip tehdide başvurdunuz. Karşı tarafın inadını artırarak çözüm imkanını ortadan kaldırabilirsiniz."
+        }
+      ]
+    },
+    "NODE_A2": {
+      "npc_text": "Heh şöyle, akıllı ol. Ben buradayım, kimse de bana bir şey diyemez.",
+      "options": [
+        {
+          "text": "Sizi zorla kaldırmayacağım ama bu bencil tavrınızla sadece kendi saygınlığınızı kaybediyorsunuz.",
+          "next": "FINISH_A2_1",
+          "feedback": "Karşı tarafı fiziksel olarak ikna edemeseniz de ona ağır bir ders verdiniz: 'Kişisel saygınlık'. Duruşunuzu bozmadan bölümü bitirdiniz."
+        },
+        {
+          "text": "Senin gibiler yüzünden bu şehir çekilmez hale geliyor. Umarım bindiğin otobüs yolda bozulur!",
+          "next": "FINISH_A2_2",
+          "feedback": "Öfkenize yenilip bedduaya başvurdunuz. Bu, etik bir çözüm değil, duygusal bir patlamadır ve hiçbir sorunu çözmez."
+        }
+      ]
+    },
+    "NODE_B1": {
+      "npc_text": "Vay be, hemen yumuşadın! Hatanı anlaman güzel ama buraya kadar gelmişken en arkaya dönmek işime gelmiyor doğrusu.",
+      "options": [
+        {
+          "text": "Sadece özür yetmez, hakkımızı teslim etmelisiniz. Lütfen sıranın sonuna geçerek bu yanlışı düzeltin.",
+          "next": "FINISH_B1_1",
+          "feedback": "Kararlılığınız ve sonradan gösterdiğiniz dürüst tavrınız sayesinde kaynakçıyı utandırdınız. Karakter gelişiminiz için harika bir adımdı."
+        },
+        {
+          "text": "Kibarlıktan anlamıyorsunuz. Bencilliğinizle kalın, daha fazla vaktimi harcamayacağım.",
+          "next": "FINISH_B1_2",
+          "feedback": "İletişimi çok erken kestiniz. Sabırsız davranmak, haklı mücadelenizin yarıda kalmasına ve adaletin sağlanamamasına neden oldu."
+        }
+      ]
+    },
+    "NODE_B2": {
+      "npc_text": "Hoppala, tehdit ha? Sıkıyorsa gel de geçir bakalım! Kim güçten anlıyormuş görelim, elinden geleni ardına koyma!",
+      "options": [
+        {
+          "text": "Kavgaya niyetim yok, sadece hakkımızı hatırlattım. Haklıyken haksız duruma düşmeyelim, huzurumuz kaçmasın.",
+          "next": "FINISH_B2_1",
+          "feedback": "Büyük bir kavgayı son anda önlediniz. Belki hakkınızı tam alamadınız ama huzuru şiddete tercih ederek sağduyulu davrandınız."
+        },
+        {
+          "text": "Gel buraya o zaman, şimdi görürsün sen!",
+          "next": "FINISH_B2_2",
+          "feedback": "Şiddeti ve fiziksel kavgayı seçerek en kötü sonucu aldınız. Bu yol, toplumsal kuralların ve ahlaki değerlerin tamamen dışındadır."
+        }
+      ]
+    },
+    "FINISH_A1_1": {
+      "npc_text": "Peki, peki... Sıradaki insanları görmezden gelmemeliydim. Sıranın sonuna geçiyorum.",
+      "options": []
+    },
+    "FINISH_A1_2": {
+      "npc_text": "İstediğine şikâyet et! Kimseden korkum yok, geçmiyorum bir yere!",
+      "options": []
+    },
+    "FINISH_A2_1": {
+      "npc_text": "Saygınlık karın doyurmuyor aslanım, ben yerimden memnunum. Git arkada bekle.",
+      "options": []
+    },
+    "FINISH_A2_2": {
+      "npc_text": "Hadi oradan be! Çok konuşma da sıranı bekle, beddua etme çarpılırsın.",
+      "options": []
+    },
+    "FINISH_B1_1": {
+      "npc_text": "Haklısın, sadece özür yetmez. Kararlılığın beni utandırdı, sıranın sonuna geçiyorum.",
+      "options": []
+    },
+    "FINISH_B1_2": {
+      "npc_text": "Hah, gerçek yüzün çıktı! Sabrın bu kadarmış demek. Hadi, bak işine şimdi!",
+      "options": []
+    },
+    "FINISH_B2_1": {
+      "npc_text": "Heh, şöyle yola gel! Madem uzatmayacaksın, geç sıranın sonuna!",
+      "options": []
+    },
+    "FINISH_B2_2": {
+      "npc_text": "Hadi gel de görelim! Kimse bana böyle konuşamaz!",
+      "options": []
+    }
+  },
+  "bolum2": {
+    "START": {
+      "npc_text": "Pst! Hey Kerem, 3. sorunun cevabını bulabildin mi? Ben çok sıkıştım, kopya verir misin?",
+      "options": [
+        {
+          "text": "Üzgünüm Kerem, buna yardım edemem. Kendi emeğinle yapmalısın.",
+          "feedback": "Dürüstlüğü ve kişisel emeği on plana çıkararak doğru bir başlangıç yaptınız. Kuralları esnetmemek, uzun vadede her iki taraf için de en adaletli olanıdır.",
+          "next": "PATH_A"
+        },
+        {
+          "text": "Tamam, kolumu çekiyorum çabuk bak. Ama sakın yakalatma bizi!",
+          "feedback": "Arkadaşlık duygusuyla etik dışı bir duruma ortak oldunuz. Yanlış bir davranışa yardım etmek, dürüstlük ilkesini zedeler ve her iki tarafı da riske atar.",
+          "next": "PATH_B"
+        }
+      ]
+    },
+    "PATH_A": {
+      "npc_text": "Hadi ama! Biz arkadaş değil miyiz? Sadece bir soru, kimse görmez.",
+      "options": [
+        {
+          "text": "Arkadaşlığımız ayrı, sınav ayrı. Hak etmediğin bir notu almana yardım etmem ikimize de zarar verir.",
+          "feedback": "Arkadaşlık ilişkisiyle etik değerleri birbirine karıştırmayarak sağlam bir karakter sergilediniz. Emeğe olan saygınızı ve prensiplerinizi korudunuz.",
+          "next": "PATH_A1"
+        },
+        {
+          "text": "Sadece bu seferlik 3. soruyu gösteririm ama başka isteme, çok riskli.",
+          "feedback": "Prensibinizden taviz vererek etik bir gri alana girdiniz. 'Sadece bir kez' diyerek kuralları esnetmek, genellikle daha büyük hataların kapısını aralar.",
+          "next": "PATH_A2"
+        }
+      ]
+    },
+    "PATH_B": {
+      "npc_text": "Harikasın! Dur, kolunu biraz daha yana kaydır, tam göremiyorum.",
+      "options": [
+        {
+          "text": "Çok ileri gittik Kerem, hoca bize bakıyor. Kapat kağıdını, ikimiz de yanacağız!",
+          "feedback": "Yaptığınız hatanın riskini fark ettiniz ancak bu farkındalık ahlaki bir kaygıdan ziyade yakalanma korkusuna dayanıyor.",
+          "next": "PATH_B1"
+        },
+        {
+          "text": "Al, kâğıdı iyice sana doğru kaydırdım. 5. soruyu da yaz, o da çok puan veriyor.",
+          "feedback": "Yanlışı derinleştirerek dürüstlükten tamamen uzaklaştınız. Sadece yardım etmekle kalmayıp, usulsüzlüğü teşvik ederek etik değerleri yok saydınız.",
+          "next": "PATH_B2"
+        }
+      ]
+    },
+    "PATH_A1": {
+      "npc_text": "Ne kuralcı çıktın! Babam beni mahvedecek, çok korkuyorum. Sadece tek bir soruya yardım etsen olmaz mı?",
+      "options": [
+        {
+          "text": "Sana okul çıkışı konuyu anlatabilirim ama şimdi olmaz. Risk almana değmez, lütfen önüne dön.",
+          "feedback": "Harika bir sonuç! Arkadaşınıza yardım etmenin doğru yolunu (öğretmek) göstererek hem dürüst kaldınız hem de gerçek bir yardımseverlik örneği sergilediniz.",
+          "next": "RESULT_A1_1"
+        },
+        {
+          "text": "Israr etme artık! Fısıldamaya devam edersen öğretmene söylemek zorunda kalacağım.",
+          "feedback": "Dürüstlüğünüzü korudunuz ancak üslubunuzu çok sertleştirdiniz. Tehdit yoluyla doğruyu dayatmak, arkadaşlık bağlarını gereksiz yere zedeleyebilir.",
+          "next": "RESULT_A1_2"
+        }
+      ]
+    },
+    "PATH_A2": {
+      "npc_text": "Tamam tamam! Sadece 3. soru söz. Zaten o puan bana yeter.",
+      "options": [
+        {
+          "text": "Hayır, yapamayacağım. Kağıdımı kapatıyorum, lütfen benden bakma.",
+          "feedback": "Hatanızı erken fark edip geri adım atmanız büyük bir erdem. Yanlış bir yoldan dönmek, o yanlışı sürdürmekten çok daha değerlidir.",
+          "next": "RESULT_A2_1"
+        },
+        {
+          "text": "Hadi çabuk bak, hoca arkasını döndü!",
+          "feedback": "Kural ihlaline tam destek verdiniz. Yakalanmamış olsan bile, haksız bir kazanca ortak olarak adalet duygunuzu zedelediniz.",
+          "next": "RESULT_A2_2"
+        }
+      ]
+    },
+    "PATH_B1": {
+      "npc_text": "Dur, bitmedi! 3. sorunun sonundayım. Şimdi kapatırsan mahvolurum! Hoca bakmıyorken biraz daha açık tut.",
+      "options": [
+        {
+          "text": "Daha fazla riske giremem. Lütfen önüne dön, ikimiz de disipline gideceğiz.",
+          "feedback": "Korkuyla da olsa yanlışı durdurmayı seçtiniz. Yine de başından itibaren dürüst kalmak, bu gerginliği yaşamanızı engelleyebilirdi.",
+          "next": "RESULT_B1_1"
+        },
+        {
+          "text": "Aslında hoca bakmıyor, hadi son kez şu şıkka da bak bari.",
+          "feedback": "Etik sınırları tamamen aştınız ve güveni yok ettiniz; bu, kısa vadeli bir çıkarın bir itibarı nasıl bitirebileceğinin en net dersidir.",
+          "next": "RESULT_B1_2"
+        }
+      ]
+    },
+    "PATH_B2": {
+      "npc_text": "Süpersin! 5'i yazdım. Arka sayfayı da çevirirsen bitiyor! Hoca bakmıyorken hadi, çok az kaldı.",
+      "options": [
+        {
+          "text": "Hoca bakıyor, çabuk önüne dön! Bu sondu, kağıdı kapatıyorum!",
+          "feedback": "Haksızlığın dozunu kaçırdıktan sonra gelen panik hali. Adaletsizliğe yardım ederek kendi geleceğinizi de tehlikeye attınız.",
+          "next": "RESULT_B2_1"
+        },
+        {
+          "text": "Tamam, çeviriyorum. Hızlıca yaz, yakalanırsak ikimiz de yanarız.",
+          "feedback": "Göz göre göre en büyük kural ihlalini yaptınız. Bu davranış, toplumsal güveni ve eğitim sistemindeki liyakat ilkesini temelinden sarsan bir tutumdur.",
+          "next": "RESULT_B2_2"
+        }
+      ]
+    },
+    "RESULT_A1_1": {
+      "npc_text": "Haklısın, seni de yakmamalıyım. Kendi başımın çaresine bakacağım.",
+      "options": []
+    },
+    "RESULT_A1_2": {
+      "npc_text": "Tamam be, sustuk! Çok abarttın, alt tarafı bir soruydu.",
+      "options": []
+    },
+    "RESULT_A2_1": {
+      "npc_text": "Tam umutlanmıştım... Neyse, en azından denedim.",
+      "options": []
+    },
+    "RESULT_A2_2": {
+      "npc_text": "Gördüm, sağ ol! Kurtardın beni.",
+      "options": []
+    },
+    "RESULT_B1_1": {
+      "npc_text": "Tamam, haklısın. Çok yaklaştı hoca, kapattım.",
+      "options": []
+    },
+    "RESULT_B1_2": {
+      "npc_text": "Bakıyorum... Eyvah! Hoca buraya geliyor!",
+      "options": []
+    },
+    "RESULT_B2_1": {
+      "npc_text": "Tamam, kapattım! Sakın belli etme, kalbim duracak...",
+      "options": []
+    },
+    "RESULT_B2_2": {
+      "npc_text": "Hah, harikasın! Hemen yazıyorum... Eyvah, hoca bakıyor! Yakalandık!",
+      "options": []
+    }
+  },
+
+  "bolum3": {
+    "START": {
+      "npc_text": "Dostum çok acil 200 TL lazım. Oyun alınca yemek param bitti, kantine borcum birikti. Yardım eder misin?",
+      "options": [
+        {
+          "text": "Paran ne çabuk bitti? Harçlığını daha dikkatli kullanmalıydın.",
+          "feedback": "Arkadaşınızın hatasını yapıcı bir dille yüzüne vurdunuz. Finansal sorumluluk konusunda uyarı yapmak dürüst ve geliştirici bir yaklaşımdır.",
+          "next": "PATH_A"
+        },
+        {
+          "text": "Hemen al kardeşim, lafı mı olur? Harca gitsin, sonra verirsin.",
+          "feedback": "Düşüncesizce borç vererek arkadaşınızın savurganlığını teşvik ettiniz. Bu yaklaşım, sorumluluk bilincinin gelişmesine engel olabilir.",
+          "next": "PATH_B"
+        }
+      ]
+    },
+    "PATH_A": {
+      "npc_text": "Sorma, oyunu görünce dayanamadım. Bir kerelik idare et, çok açım.",
+      "options": [
+        {
+          "text": "Borç veremem ama yemeğimi paylaşabilirim. Paranı yönetmeyi öğrenmelisin.",
+          "feedback": "Sınırlarınızı korurken insani yardımda bulundunuz. Para yerine temel ihtiyacı karşılamak çok daha etik ve sağlıklı bir çözümdür.",
+          "next": "PATH_A1"
+        },
+        {
+          "text": "Hep aynısını yapıyorsun ama neyse... Al bakalım, bu son olsun!",
+          "feedback": "Uyarı yapsanız da sonunda pes edip borç verdiniz. Kararlılığınızı korumamanız, benzer sorunların tekrarlanmasına yol açabilir.",
+          "next": "PATH_A2"
+        }
+      ]
+    },
+    "PATH_B": {
+      "npc_text": "Adamsın! Haftaya babamdan harçlık alınca hemen sendeyim, söz!",
+      "options": [
+        {
+          "text": "Sana güveniyorum, lütfen bu sefer sözünde dur.",
+          "feedback": "Güvene dayalı bir ilişki kurdunuz ancak arkadaşınızın finansal disiplin kazanması için net bir sınır koymadınız.",
+          "next": "PATH_B1"
+        },
+        {
+          "text": "Al parayı ama her seferinde seni kurtarmaktan bıktım artık!",
+          "feedback": "Yardım ederken sergilediğiniz saldırgan tavır iletişimi zeledi. Yardım etmek ile aşağılamak arasındaki ince sınırı aştınız.",
+          "next": "PATH_B2"
+        }
+      ]
+    },
+    "PATH_A1": {
+      "npc_text": "Borcum ne olacak? Haklısın, parayı oyuna bitirdim ama lütfen bu seferlik borç ver, söz son!",
+      "options": [
+        {
+          "text": "Gel bölüşelim, borç çözüm değil. Dikkatli harcarsan bir daha bu duruma düşmezsin.",
+          "feedback": "Borç sarmalına girmeden kalıcı bir çözüm sundunuz. Yapıcı bir tavırla arkadaşınıza finansal açıdan gerçek bir ders verdiniz.",
+          "next": "RESULT_A1_1"
+        },
+        {
+          "text": "Sana kuruş yok! Git başkasından bul, benden de uzak dur artık.",
+          "feedback": "Sınır koymak yerine köprüleri tamamen yıktınız. İletişimi bu kadar sert koparmak ahlaki olarak geliştirici bir yol değildir.",
+          "next": "RESULT_A1_2"
+        }
+      ]
+    },
+    "PATH_A2": {
+      "npc_text": "Harikasın! Beni büyük yükten kurtardın. Haftaya kesin sendeyim, söz bir daha böyle yapmayacağım!",
+      "options": [
+        {
+          "text": "Peki, bu sefer sana inanıyorum. Umarım haftaya her şey düzelir. Görüşürüz!",
+          "feedback": "İyimser bir yaklaşımla şans verdiniz. Ancak Selim'in harcama alışkanlığını sorgulatmadığınız için hata tekrarlanabilir.",
+          "next": "RESULT_A2_1"
+        },
+        {
+          "text": "Sözünü tutsan iyi olur. Haftaya aynı bahanelerle gelme; bu senin son şansındı.",
+          "feedback": "Son bir şans vererek sorumluluğu Selim'e yüklediniz. Tehditkar üslubunuz arkadaşlık bağlarını gereksiz gerebilir.",
+          "next": "RESULT_A2_2"
+        }
+      ]
+    },
+    "PATH_B1": {
+      "npc_text": "Sağ ol kanka, bu güvenin çok önemli.",
+      "options": [
+        {
+          "text": "Umarım bu sefer beni gerçekten şaşırtırsın. Lütfen artık harcamalarını daha dikkatli planla.",
+          "feedback": "Nazik bir dille beklentinizi belirttiniz. Karşılıklı güvene dayalı ancak finansal açıdan riskli bir karar verdiniz.",
+          "next": "RESULT_B1_1"
+        },
+        {
+          "text": "Yine aynı bahanelerle gelme. Eğer haftaya verdiğin sözü tutmazsan bir daha asla kapımı çalma.",
+          "feedback": "Kesin bir sınır koyarak arkadaşınıza karşı tavrınızı netleştirdiniz. Adalet ve dürüstlük için gereken netliği gösterdiniz.",
+          "next": "RESULT_B1_2"
+        }
+      ]
+    },
+    "PATH_B2": {
+      "npc_text": "Borç veriyorsun diye neden azar çekiyorsun? Kalsın paran!",
+      "options": [
+        {
+          "text": "Mesele azar değil, bıkkınlık. Gurur yapma da al şunu; yeter ki artık düzenini kur.",
+          "feedback": "İletişimi düzelterek durumu mantıklı bir zemine oturttunuz. Yanlış anlaşılmayı gidermek ahlaki bir olgunluktur.",
+          "next": "RESULT_B2_1"
+        },
+        {
+          "text": "Hem suçlu hem güçlü... Madem bu kadar gururlusun, kendi başının çaresine bak o zaman!",
+          "feedback": "Öfkenize yenik düşerek yardımı kestiniz. Çatışma yönetimi ve etik yardımseverlik konusunda zayıf bir duruş sergilediniz.",
+          "next": "RESULT_B2_2"
+        }
+      ]
+    },
+    "RESULT_A1_1": {
+      "npc_text": "Haklısın, dersimi aldım. Ismarlamanı kabul edemem ama bu uyarın yetti. Sağ ol.",
+      "options": []
+    },
+    "RESULT_A1_2": {
+      "npc_text": "Ne kıymetli paran varmış be! Tamam, istemedik bir şey.",
+      "options": []
+    },
+    "RESULT_A2_1": {
+      "npc_text": "Çok sağ ol! Güvenini boşa çıkarmayacağım, göreceksin her şey çok güzel olacak. Haftaya görüşürüz!",
+      "options": []
+    },
+    "RESULT_A2_2": {
+      "npc_text": "Haklısın, sana karşı çok mahcubum. Bu son olacak, söz veriyorum... Haftaya görüşürüz.",
+      "options": []
+    },
+    "RESULT_B1_1": {
+      "npc_text": "Kesinlikle! Bu sefer her şey farklı olacak, göreceksin. Çok sağ ol!",
+      "options": []
+    },
+    "RESULT_B1_2": {
+      "npc_text": "Seni anlıyorum, haklısın. Kendimi affettirmek için haftaya mutlaka geleceğim.",
+      "options": []
+    },
+    "RESULT_B2_1": {
+      "npc_text": "Haklısın, fazla tepki verdim. Haftaya her şeyi telafi edeceğim, söz.",
+      "options": []
+    },
+    "RESULT_B2_2": {
+      "npc_text": "Kibirli yardımın sende kalsın! Bir daha yüzümü göremezsin!",
+      "options": []
+    }
+  },
+
+  "bolum4": {
+    "START": {
+      "npc_text": "(Fısıldaşarak ama duyulur şekilde) Hahaha! Gerçekten mi? İnanılmaz bir olay bu, sonra ne oldu?",
+      "options": [
+        {
+          "text": "Pardon, biraz daha kısık sesle konuşabilir misiniz? Ders çalışan insanlar var.",
+          "feedback": "Sorunu nezaketle ve suçlamadan dile getirdiniz. Toplumsal alanlarda yapıcı iletişim, her zaman gerginliği önlemenin en iyi yoludur.",
+          "next": "PATH_A"
+        },
+        {
+          "text": "Burası kütüphane, mahalle kahvesi değil! Sessiz olun!",
+          "feedback": "Haklı olsanız da üslubunuzu sertleştirerek iletişim çatışmasına yol açtınız. Kaba bir tavır, haklı durumdayken haksız görünmenize neden olabilir.",
+          "next": "PATH_B"
+        }
+      ]
+    },
+    "PATH_A": {
+      "npc_text": "Kusura bakma, fark etmemişiz. Hemen kısıyoruz.",
+      "options": [
+        {
+          "text": "Anlayışınız için teşekkürler. Herkesin çalışması için sessizlik gerekiyor.",
+          "feedback": "Olumlu bir geri bildirim aldığınızda teşekkür ederek saygınızı korudunuz. Bu tutum, ortak alanlardaki huzuru pekiştirir.",
+          "next": "PATH_A1"
+        },
+        {
+          "text": "Tamam dediniz ama hala fısıldaşıyorsunuz. Lütfen tamamen susun.",
+          "feedback": "Karşınızdakinin iyi niyetini sorgulayarak baskıyı artırdınız. Sabırsız bir tutum, çözüme ulaşmış bir sorunu tekrar tetikleyebilir.",
+          "next": "PATH_A2"
+        }
+      ]
+    },
+    "PATH_B": {
+      "npc_text": "Ne bu şiddet? Alt tarafı iki kelime ettik!",
+      "options": [
+        {
+          "text": "Tamam, sert çıktım belki ama sınavım var, gerçekten gerginim.",
+          "feedback": "Hatanızı fark edip öz eleştiri yaptınız. Stresinizi bir neden olarak sunarak iletişimi yumuşatma çabanız olgun bir davranıştır.",
+          "next": "PATH_B1"
+        },
+        {
+          "text": "Hala konuşuyor musunuz? Gidip görevliye şikayet etmemi mi istiyorsunuz?",
+          "feedback": "İletişim kurmak yerine tehdit yolunu seçtiniz. Tehditkar yaklaşımlar genellikle karşı tarafın daha fazla direnmesine neden olur.",
+          "next": "PATH_B2"
+        }
+      ]
+    },
+    "PATH_A1": {
+      "npc_text": "Haklısın, biz de çalışmaya dönüyoruz.",
+      "options": [
+        {
+          "text": "Sağ olun, iyi çalışmalar.",
+          "feedback": "Nazik bir veda ile konuyu tatlıya bağladınız. Örnek bir toplumsal iletişim sergileyerek her iki tarafın da huzurunu sağladınız.",
+          "next": "RESULT_A1_1"
+        },
+        {
+          "text": "Bir daha olmasın, başkalarını düşünmek zorundasınız.",
+          "feedback": "Sorun çözülmüş olsa da son bir ders verme çabasıyla gerginliği havada bıraktınız. Gereksiz üstten bakış, ilişkileri zedeleyebilir.",
+          "next": "RESULT_A1_2"
+        }
+      ]
+    },
+    "PATH_A2": {
+      "npc_text": "Tamam dedik ya, bu kadar baskı yapma.",
+      "options": [
+        {
+          "text": "Sadece rica ediyorum, hepimiz verimli çalışalım.",
+          "feedback": "Kontrolü tekrar ele alıp ricacı bir konuma döndünüz. Israrınızı nezaketle birleştirerek hedefinize ulaşmaya çalıştınız.",
+          "next": "RESULT_A2_1"
+        },
+        {
+          "text": "Sizinle mi uğraşacağım? Kuralları öğrenin de gelin!",
+          "feedback": "Kişisel bir saldırıya dönüşen bu üslup, ortak yaşam kültürüne zarar verir. Ego odaklı tepkiler toplumsal saygıyı azaltır.",
+          "next": "RESULT_A2_2"
+        }
+      ]
+    },
+    "PATH_B1": {
+      "npc_text": "Peki, stresini anlıyoruz. Sustuk.",
+      "options": [
+        {
+          "text": "Teşekkürler, yardımcı olduğunuz için minnettarım.",
+          "feedback": "Sert bir girişten sonra dengeyi sağladınız. Anlayış gösteren birine minnettarlık sunmak, gerginliği tamamen ortadan kaldırır.",
+          "next": "RESULT_B1_1"
+        },
+        {
+          "text": "Yine de sessiz olmanız gerekiyordu, beni bu hale getirmemeliydiniz.",
+          "feedback": "Hatanızın sorumluluğunu karşı tarafa yükleyerek pasif-agresif bir tutum sergilediniz. Sorumluluktan kaçmak ahlaki bir zayıflıktır.",
+          "next": "RESULT_B1_2"
+        }
+      ]
+    },
+    "PATH_B2": {
+      "npc_text": "Git kime istersen söyle! Çok da korktuk.",
+      "options": [
+        {
+          "text": "Neyse, tartışmayalım. Sadece sessizlik istiyorum.",
+          "feedback": "Gidişatın kötü olduğunu fark edip tartışmayı sonlandırdınız. Gereksiz polemikten kaçmak her zaman akıllıca bir tercihtir.",
+          "next": "RESULT_B2_1"
+        },
+        {
+          "text": "Terbiyesizlik yapmayın! Kalkın gidin dışarıda konuşun!",
+          "feedback": "Empati kurmadan başkalarını kovmaya çalışmak saldırgan bir tavırdır. Ortak alanlarda otorite kurmaya çalışmak çatışmayı kaçınılmaz kılar.",
+          "next": "RESULT_B2_2"
+        }
+      ]
+    },
+    "RESULT_A1_1": {
+      "npc_text": "Sana da. Kolay gelsin!",
+      "options": []
+    },
+    "RESULT_A1_2": {
+      "npc_text": "İyilik de yaramıyor size...",
+      "options": []
+    },
+    "RESULT_A2_1": {
+      "npc_text": "Peki, daha dikkatli oluruz.",
+      "options": []
+    },
+    "RESULT_A2_2": {
+      "npc_text": "Hadi oradan, sanki kütüphane sahibi!",
+      "options": []
+    },
+    "RESULT_B1_1": {
+      "npc_text": "Sorun değil, başarılar.",
+      "options": []
+    },
+    "RESULT_B1_2": {
+      "npc_text": "Hala konuşuyor ya, neyse...",
+      "options": []
+    },
+    "RESULT_B2_1": {
+      "npc_text": "İyi, biz de susuyoruz zaten.",
+      "options": []
+    },
+    "RESULT_B2_2": {
+      "npc_text": "Sen kim oluyorsun da bizi kovuyorsun? Görevliyi çağır bakalım!",
+      "options": []
+    }
+  },
+
+  "bolum5": {
+    "START": {
+      "npc_text": "Buyurun para üstünüz efendim. 50, 70, 90... Tamamdır. İyi günler dilerim!",
+      "options": [
+        {
+          "text": "Pardon, sanırım bana fazla para verdiniz. Buyurun, bu miktar sizin.",
+          "feedback": "Dürüstlük ve vicdanınızın sesini dinlediniz. Başkasının hatasından faydalanmamak en erdemli davranıştır.",
+          "next": "PATH_A"
+        },
+        {
+          "text": "(Parayı cebine atıp sessizce marketten çıkmaya yönelirsin)",
+          "feedback": "Sessiz kalarak haksız kazanç sağlama yoluna gittiniz. Bu durum kişisel dürüstlük prensiplerine aykırıdır.",
+          "next": "PATH_B"
+        }
+      ]
+    },
+    "PATH_A": {
+      "npc_text": "Ah, çok teşekkür ederim! Bugün kafam çok dolu, gerçekten dalmışım...",
+      "options": [
+        {
+          "text": "Olur öyle insanlık hali, önemli olan hatayı düzeltmek. İyi çalışmalar.",
+          "feedback": "Hata yapan birine karşı anlayışlı ve dürüst bir tutum sergilediniz. Empati kurmak iletişimi güçlendirir.",
+          "next": "RESULT_A1"
+        },
+        {
+          "text": "Bence işinize daha iyi odaklanmalısınız, her müşteri benim gibi dürüst olmayabilir.",
+          "feedback": "Doğruyu yapsanız da karşınızdakini eleştiren, moral bozucu bir tavır sergilediniz. Üslubunuz dürüstlüğünüzün önüne geçti.",
+          "next": "RESULT_A2"
+        }
+      ]
+    },
+    "PATH_B": {
+      "npc_text": "Efendim, bir dakika! Para üstünde bir yanlışlık mı oldu? Az önce verdiğim banknotlara baktım da...",
+      "options": [
+        {
+          "text": "Evet, ben de tam onu kontrol ediyordum. Buyurun fazla vermişsiniz.",
+          "feedback": "Baskı altında kalsanız da sonunda dürüstlüğü tercih ettiniz. Hatanın neresinden dönülse kârdır.",
+          "next": "RESULT_B1"
+        },
+        {
+          "text": "Hayır, tam olarak verdiğim paranın üstünü aldım. Neden sordunuz ki?",
+          "feedback": "Haksız kazancınızı yalanla pekiştirerek etik olmayan bir yol seçtiniz. Bu durum karakterinizdeki güvenilirlik imajına zarar verir.",
+          "next": "RESULT_B2"
+        }
+      ]
+    },
+    "RESULT_A1": {
+      "npc_text": "Dürüstlüğünüz için çok sağ olun. İyi günler!",
+      "options": []
+    },
+    "RESULT_A2": {
+      "npc_text": "Haklısınız, dikkat edeceğim. Yine de sağ olun.",
+      "options": []
+    },
+    "RESULT_B1": {
+      "npc_text": "Fark etmeme sevindim, çok teşekkürler.",
+      "options": []
+    },
+    "RESULT_B2": {
+      "npc_text": "Pardon, yanlış gördüm galiba... İyi günler. (Size şüpheyle bakıyor)",
+      "options": []
+    }
+  },
+
+  "bolum6": {
+    "START": {
+      "npc_text": "(Trafik çok yoğun, yaya geçidinde kalmışım. Ne istiyorsun?)",
+      "options": [
+        {
+          "text": "Pardon, geçebilmem için biraz geri çıkabilir miyiz?",
+          "feedback": "Karşınızdakine hatasını nezaketle belirttiniz. Trafikte gerginliği azaltmak güvenli bir ortam sağlar.",
+          "next": "PATH_A"
+        },
+        {
+          "text": "Yaya geçidinin üzerinde duramazsınız! Çekilin yoldan!",
+          "feedback": "Sert bir üslup seçtiniz. Haklı olsanız bile saldırgan tavır, sürücünün savunmaya geçip inatlaşmasına sebep olabilir.",
+          "next": "PATH_B"
+        }
+      ]
+    },
+    "PATH_A": {
+      "npc_text": "Kusura bakmayın, trafiğe dalmışım. Hemen çekiliyorum.",
+      "options": [
+        {
+          "text": "Sorun değil, anlayışınız için teşekkürler.",
+          "feedback": "Hatasını kabul eden birine anlayış göstererek yapıcı bir iletişim kurdunuz.",
+          "next": "PATH_A1"
+        },
+        {
+          "text": "Tamam ama bir dahakine çizgilere daha çok dikkat edin.",
+          "feedback": "Öğüt verici ve biraz üstten bakışlı bir tavır takındınız. İletişimi soğutabilir.",
+          "next": "PATH_A2"
+        }
+      ]
+    },
+    "PATH_B": {
+      "npc_text": "Trafik kilit görmüyor musun? Nereye gideyim!",
+      "options": [
+        {
+          "text": "Sert çıktım ama burası yayaların hakkı, lütfen.",
+          "feedback": "Yanlışınızı fark edip geri adım attınız. Hatayı telafi etmek erdemli bir davranıştır.",
+          "next": "PATH_B1"
+        },
+        {
+          "text": "Trafik bahane değil, yolu açın yoksa trafik polisini çağıracağım!",
+          "feedback": "Tehdit yolunu seçtiniz. Bu durum toplumsal huzuru zedeleyebilir ve kişisel güvenliğinizi riske atabilir.",
+          "next": "PATH_B2"
+        }
+      ]
+    },
+    "PATH_A1": {
+      "npc_text": "Rica ederim, iyi günler dilerim.",
+      "options": [
+        {
+          "text": "Sağ olun, iyi yolculuklar.",
+          "feedback": "Nezaketi nezaketle karşıladınız. Toplum içinde örnek bir vatandaşlık sergilediniz.",
+          "next": "RESULT_A1_1"
+        },
+        {
+          "text": "Yine de herkesin hakkına saygı duymalıyız.",
+          "feedback": "Konuyu uzatarak karşı tarafın iyi niyetini zorladınız. Fazla ısrar iletişimi bozabilir.",
+          "next": "RESULT_A1_2"
+        }
+      ]
+    },
+    "PATH_A2": {
+      "npc_text": "Tamam dedik ya, amma uzattın sen de.",
+      "options": [
+        {
+          "text": "Neyse, en azından hatanızı kabul ettiniz.",
+          "feedback": "Tartışmayı büyümeden kestiniz fakat biraz iğneleyici kaldınız.",
+          "next": "RESULT_A2_1"
+        },
+        {
+          "text": "Ehliyeti bakkaldan mı aldın? Dikkat etsene!",
+          "feedback": "Kişisel hakaret ettiniz. Haklı durumdayken saygısızlığınız nedeniyle tamamen haksız duruma düştünüz.",
+          "next": "RESULT_A2_2"
+        }
+      ]
+    },
+    "PATH_B1": {
+      "npc_text": "Haklısın, biraz geri gelmeye çalışacağım.",
+      "options": [
+        {
+          "text": "Teşekkür ederim, yardımcı olduğunuz için.",
+          "feedback": "Gergin başlayan bir diyaloğu nezaketle sonlandırmayı başardınız.",
+          "next": "RESULT_B1_1"
+        },
+        {
+          "text": "Umarım bir dahakine daha duyarlı olursunuz.",
+          "feedback": "Son bir uyarıyla moral bozmayı seçtiniz. İletişimi 'kazanan/kaybeden' odaklı yürüttünüz.",
+          "next": "RESULT_B1_2"
+        }
+      ]
+    },
+    "PATH_B2": {
+      "npc_text": "Git kimi çağırırsan çağır, kımıldamıyorum!",
+      "options": [
+        {
+          "text": "Tartışmayalım, sadece kurallara uymak yeter.",
+          "feedback": "Gidişatın kötü olduğunu fark edip kural hatırlatmasıyla yetindiniz.",
+          "next": "RESULT_B2_1"
+        },
+        {
+          "text": "Sizin gibi sürücüler yüzünden yollar tıkanıyor!",
+          "feedback": "Genelleme yaparak suçlama yaptınız. Bu tavır hiçbir sorunu çözmez, sadece nefreti artırır.",
+          "next": "RESULT_B2_2"
+        }
+      ]
+    },
+    "RESULT_A1_1": {
+      "npc_text": "Teşekkürler, tekrardan kusura bakmayın.",
+      "options": []
+    },
+    "RESULT_A1_2": {
+      "npc_text": "Haklısın, dikkat edeceğim.",
+      "options": []
+    },
+    "RESULT_A2_1": {
+      "npc_text": "Olur böyle hatalar, iyi günler.",
+      "options": []
+    },
+    "RESULT_A2_2": {
+      "npc_text": "Seninle mi uğraşacağım be, yürü git!",
+      "options": []
+    },
+    "RESULT_B1_1": {
+      "npc_text": "Sorun değil, iyi günler.",
+      "options": []
+    },
+    "RESULT_B1_2": {
+      "npc_text": "Tamam, deneyeceğim.",
+      "options": []
+    },
+    "RESULT_B2_1": {
+      "npc_text": "Doğru söylüyorsun, çekiliyorum hadi geç!",
+      "options": []
+    },
+    "RESULT_B2_2": {
+      "npc_text": "Bas git başımdan, belanı benden bulma!",
+      "options": []
+    }
+  },
+
+  "bolum7": {
+    "START": {
+      "npc_text": "Selam! Ya bir şey soracaktım... Şu geçen gün yanındaki çocuğun numarasını verir misin? Acil bir şey sormam lazım.",
+      "options": [
+        {
+          "text": "Numarayı hemen veremem, önce ona bir sormam lazım.",
+          "feedback": "Kişisel verilerin gizliliğine saygı duydunuz. Birinin numarasını izinsiz paylaşmamak, hem yasal hem de ahlaki bir sorumluluktur.",
+          "next": "PATH_A"
+        },
+        {
+          "text": "Tamam al bakalım, ama sakın benden aldığını söyleme!",
+          "feedback": "Başkasının özel bilgisini izinsiz paylaştınız. Gizlilik sözü vermeniz, yaptığınız güven ihlalini ortadan kaldırmaz.",
+          "next": "PATH_B"
+        }
+      ]
+    },
+    "PATH_A": {
+      "npc_text": "Amaan, yabancı mıyız? Gönder gitsin işte, bir şey olmaz. Çok uzattın!",
+      "options": [
+        {
+          "text": "Prensip meselesi, hemen sorup sana haber veririm.",
+          "feedback": "Baskı altında bile ilkelerinizden taviz vermediniz. Sınırlarınızı korumak karakterinizin gücünü gösterir.",
+          "next": "PATH_A1"
+        },
+        {
+          "text": "Israr etme lütfen, başkasının özel bilgisini öylece dağıtamam.",
+          "feedback": "Net bir tavır koyarak karşı tarafın ısrarını kırdınız. Özel hayata saygı, arkadaşlıktan daha önceliklidir.",
+          "next": "PATH_A2"
+        }
+      ]
+    },
+    "PATH_B": {
+      "npc_text": "Süpersin! Merak etme, aramızda sır olarak kalacak. Kimse duymaz.",
+      "options": [
+        {
+          "text": "İçime pek sinmiyor ama al bakalım, sakın beni zor durumda bırakma.",
+          "feedback": "İstemeyerek de olsa baskıya boyun eğdiniz. Kendinizi suçlu hissetmeniz, doğru yolda olmadığınızı gösterir.",
+          "next": "PATH_B1"
+        },
+        {
+          "text": "Aman ne olacak, yabancı değilsin sonuçta. Al yaz numarasını.",
+          "feedback": "Gizlilik konusunu çok hafife aldınız. Bu vurdumduymazlık, gelecekte daha büyük güven sorunlarına yol açabilir.",
+          "next": "PATH_B2"
+        }
+      ]
+    },
+    "PATH_A1": {
+      "npc_text": "İyi bari, çabuk sor da işim görülsün. Bekliyorum.",
+      "options": [
+        {
+          "text": "Hemen mesaj atıyorum, cevap gelince yazarım.",
+          "feedback": "Sorunu her iki tarafı da kırmadan, etik kurallara uygun şekilde çözmeye çalıştınız.",
+          "next": "RESULT_A1_1"
+        },
+        {
+          "text": "Bu kadar ısrar etmen bile aslında çok doğru değil.",
+          "feedback": "Arkadaşınızı eğitici bir şekilde uyardınız. Yanlışı dile getirmek dürüst bir yaklaşımdır.",
+          "next": "RESULT_A1_2"
+        }
+      ]
+    },
+    "PATH_A2": {
+      "npc_text": "Alt tarafı bir numara istedik, amma büyüttün konuyu be!",
+      "options": [
+        {
+          "text": "Kırılma ama dürüst olanı bu. Hemen hallederiz.",
+          "feedback": "Karşı tarafın tepkisine rağmen doğru olandan sasmayarak olgunluk gösterdiniz.",
+          "next": "RESULT_A2_1"
+        },
+        {
+          "text": "Hayır dedim! Arkadaşımın güvenini boşa çıkaramam.",
+          "feedback": "Sarsılmaz bir sadakat ve dürüstlük sergilediniz. Güvenilirlik en büyük hazinedir.",
+          "next": "RESULT_A2_2"
+        }
+      ]
+    },
+    "PATH_B1": {
+      "npc_text": "Endişelenme, hiçbir sorun çıkmayacak, güven bana.",
+      "options": [
+        {
+          "text": "Lütfen dikkatli ol, adımı bir yerde geçirme.",
+          "feedback": "Hata yaptığınızı bildiğiniz için izlerinizi örtmeye çalışıyorsunuz. Bu durum iç huzurunuzu bozabilir.",
+          "next": "RESULT_B1_1"
+        },
+        {
+          "text": "Umarım öğrendiğinde bana kızmaz, kendimi suçlu hissettim.",
+          "feedback": "Vicdan azabı çekiyorsunuz. Bu his, gelecekte daha dikkatli olmanız için bir uyarıdır.",
+          "next": "RESULT_B1_2"
+        }
+      ]
+    },
+    "PATH_B2": {
+      "npc_text": "İşte budur! Çok sağ ol, beni büyük bir dertten kurtardın. Eyvallah!",
+      "options": [
+        {
+          "text": "Senin için risk alıyorum, umarım buna değer.",
+          "feedback": "Yanlış bir şey uğruna risk almayı tercih ettiniz. Değerleriniz yerine kişisel çıkarları önemsediniz.",
+          "next": "RESULT_B2_1"
+        },
+        {
+          "text": "Aman, kim duyacak sanki? Keyfine bak.",
+          "feedback": "Tamamen etik dışı ve sorumsuz bir yaklaşım. Başkalarının haklarını yok saydınız.",
+          "next": "RESULT_B2_2"
+        }
+      ]
+    },
+    "RESULT_A1_1": {
+      "npc_text": "Tamamdır, bekliyorum.",
+      "options": []
+    },
+    "RESULT_A1_2": {
+      "npc_text": "Aman, senin kuralların da bitmiyor!",
+      "options": []
+    },
+    "RESULT_A2_1": {
+      "npc_text": "Peki, öyle olsun bakalım.",
+      "options": []
+    },
+    "RESULT_A2_2": {
+      "npc_text": "Tamam be! İstemiyorum artık.",
+      "options": []
+    },
+    "RESULT_B1_1": {
+      "npc_text": "İçin rahat olsun, kimse bilmeyecek.",
+      "options": []
+    },
+    "RESULT_B1_2": {
+      "npc_text": "Kızmaz ya, bir şekilde hallederiz.",
+      "options": []
+    },
+    "RESULT_B2_1": {
+      "npc_text": "Değecek merak etme, teşekkürler.",
+      "options": []
+    },
+    "RESULT_B2_2": {
+      "npc_text": "Kesinlikle! Hadi ben kaçtım, eyvallah!",
+      "options": []
+    }
+  },
+
+  "bolum8": {
+    "START": {
+      "npc_text": "Tenha bir sokakta yürürken yerde bir cüzdan görüyorsun. Etrafta kimse yok, seni izleyen bir kamera da görünmüyor. Karar senin.",
+      "options": [
+        {
+          "text": "Bu cüzdan benim değil, sahibi perişan olmuştur. Bir şekilde polise ulaştırmalıyım.",
+          "feedback": "Dürüstlük temeli üzerine kurulu harika bir karar! Başkasının mağduriyetini kendi çıkarınızın önüne koydunuz.",
+          "next": "PATH_A"
+        },
+        {
+          "text": "Bunu buraya şans göndermiş olmalı! Kimse görmeden alıp hemen gitmeliyim.",
+          "feedback": "Anlık bir kazanç için etik değerlerinizden ödün vermeyi seçtiniz. Kimsenin görmemesi, eylemi doğru kılmaz.",
+          "next": "PATH_B"
+        }
+      ]
+    },
+    "PATH_A": {
+      "npc_text": "Doğru olan bu. Belki birinin kira parası, belki de tek birikimidir. Onu geri vermelisin.",
+      "options": [
+        {
+          "text": "Vakit kaybetmeden en yakın karakola teslim edeceğim, içim ancak o zaman rahat eder.",
+          "feedback": "Tam dürüstlük ve sorumluluk bilinci. Toplumsal güvenin en önemli yapı taşlarından birini sergilediniz.",
+          "next": "RESULT_A1"
+        },
+        {
+          "text": "Burada biraz bekleyeyim, gelen olmazsa cüzdanı alırım. En azından denedim derim.",
+          "feedback": "Dürüstlükten biraz saptınız. Kendi vicdanınızı rahatlatmak için mazeret üretmek dürüstlüğü tam kılmaz.",
+          "next": "RESULT_A2"
+        }
+      ]
+    },
+    "PATH_B": {
+      "npc_text": "Gerçekten bunu yapacak mısın? Kimsenin görmemesi, bunun yanlış olduğu gerçeğini değiştirmez.",
+      "options": [
+        {
+          "text": "Aslında yaptığım yanlış... Belki de polise haber vermeliydim. Hala geç değil.",
+          "feedback": "Hatanızı fark edip telafi etme isteği gösterdiniz. Pişmanlık, dürüstlüğe dönen ilk adımdır.",
+          "next": "RESULT_B1"
+        },
+        {
+          "text": "Hayat zor, bugün de benim şansım güldü. Kimse için kendimi yoramam.",
+          "feedback": "Etik değerlerinizi maddi bir değer karşılığında feda ettiniz. Bu seçim toplumsal güveni zedeleyen bir tavırdır.",
+          "next": "RESULT_B2"
+        }
+      ]
+    },
+    "RESULT_A1": {
+      "npc_text": "Dürüstlük bazen yorucudur ama yastığa başını koyduğunda hissettiğin o huzura değer.",
+      "options": []
+    },
+    "RESULT_A2": {
+      "npc_text": "Kimi kandırıyorsun? On dakika beklemek seni haklı bir mal sahibi yapmaz.",
+      "options": []
+    },
+    "RESULT_B1": {
+      "npc_text": "Pişmanlık duyman güzel. Adımlarını geri çevirirsen bu yükten kurtulabilirsin.",
+      "options": []
+    },
+    "RESULT_B2": {
+      "npc_text": "Karakterini bir cüzdan için sattın. Bu cüzdan sana asla bereket getirmeyecek.",
+      "options": []
+    }
+  },
+
+  "bolum9": {
+    "START": {
+      "npc_text": "(Önündeki kişi elindeki şişeyi yere fırlattı ve hiçbir şey olmamış gibi bekliyor. Yerde bir şişe duruyor.)",
+      "options": [
+        {
+          "text": "Affedersiniz, şişeniz yere düştü sanırım. Çöp kutusu hemen şurada, görmediniz herhalde?",
+          "feedback": "Nezaketle yaklaştınız. Sorunları suçlamadan dile getirmek genellikle daha yapıcı sonuçlar doğurur.",
+          "next": "PATH_A"
+        },
+        {
+          "text": "Hey! Yere çöp atmaya utanmıyor musun? Çocuk musun sen, kaldır şunu!",
+          "feedback": "Sert bir üslup seçtiniz. Haklı olsanız bile saldırgan tavır iletişimi koparabilir veya çatışma çıkarabilir.",
+          "next": "PATH_B"
+        }
+      ]
+    },
+    "PATH_A": {
+      "npc_text": "Düşmedi, bilerek attım. Belediye ne güne duruyor? Temizlesinler işte.",
+      "options": [
+        {
+          "text": "Belediyenin görevi temizlemek olabilir ama bizim görevimiz de kirletmemek. Lütfen, çok yakın zaten.",
+          "feedback": "Sorumluluk bilincini nazik ama kararlı bir şekilde hatırlattınız.",
+          "next": "PATH_A1"
+        },
+        {
+          "text": "Herkes sizin gibi düşünse her yer çöplüğe dönerdi. Biraz saygılı olun!",
+          "feedback": "Eleştirel bir tona geçtiniz. Kişisel saldırı yerine soruna odaklanmak daha etkili olabilir.",
+          "next": "PATH_A2"
+        }
+      ]
+    },
+    "PATH_B": {
+      "npc_text": "Sana ne kardeşim? Çöpçü müsün başıma? İşine bak!",
+      "options": [
+        {
+          "text": "Sert konuştum çünkü doğanın mahvolmasına dayanamıyorum. Lütfen o şişeyi oradan alın.",
+          "feedback": "Tepkinizin nedenini açıklayarak ortamı sakinleştirmeye çalıştınız.",
+          "next": "PATH_B1"
+        },
+        {
+          "text": "Senin gibi tipler yüzünden her yer leş gibi! Saygısız herif, kaldır o şişeyi!",
+          "feedback": "Öfkenizi kontrol edemediniz ve hakarete başvurdunuz. Bu, toplumsal huzuru zedeleyen bir davranıştır.",
+          "next": "PATH_B2"
+        }
+      ]
+    },
+    "PATH_A1": {
+      "npc_text": "Amma uzattın be... İyi, alıyorum tamam.",
+      "options": [
+        {
+          "text": "Teşekkür ederim, anlayışınız için sağ olun.",
+          "feedback": "Olumlu pekiştirme yaparak diyaloğu başarıyla sonlandırdınız.",
+          "next": "RESULT_A1_1"
+        },
+        {
+          "text": "Zaten olması gereken buydu, bir dahakine dikkat edin.",
+          "feedback": "Yapıcı bir son yerine iğneleyici bir kapanış seçtiniz.",
+          "next": "RESULT_A1_2"
+        }
+      ]
+    },
+    "PATH_A2": {
+      "npc_text": "Bana terbiye dersi mi veriyorsun? Yürü git yoluna!",
+      "options": [
+        {
+          "text": "Tartışmak istemiyorum, sadece çevremizi koruyalım istiyorum.",
+          "feedback": "Geri adım atarak gerginliği azaltmaya çalıştınız.",
+          "next": "RESULT_A2_1"
+        },
+        {
+          "text": "Sana laf anlatılmaz, tam bir cahilsin!",
+          "feedback": "İletişimi tamamen kopardınız ve gerginliği tırmandırdınız.",
+          "next": "RESULT_A2_2"
+        }
+      ]
+    },
+    "PATH_B1": {
+      "npc_text": "Tamam, bağırmana gerek yoktu. Alıyoruz işte.",
+      "options": [
+        {
+          "text": "Anlayışın için teşekkürler, doğa hepimizin.",
+          "feedback": "Özür ve teşekkürle durumu tatlıya bağladınız.",
+          "next": "RESULT_B1_1"
+        },
+        {
+          "text": "Alman yetmez, bir de özür dileyebilsen keşke.",
+          "feedback": "Kazanılmış bir durumu fazla zorlayarak tekrar gerdiniz.",
+          "next": "RESULT_B1_2"
+        }
+      ]
+    },
+    "PATH_B2": {
+      "npc_text": "Düzgün konuş benimle! Git kendin kaldır çok istiyorsan!",
+      "options": [
+        {
+          "text": "Tamam, sakin olalım. Sadece şişeyi çöpe atsan yeterli.",
+          "feedback": "Son anda sağduyulu davranarak çatışmayı önlediniz.",
+          "next": "RESULT_B2_1"
+        },
+        {
+          "text": "Gel de sen bildir haddimi! Terbiyesiz!",
+          "feedback": "Sözlü şiddeti fiziksel çatışma boyutuna taşıdınız. Çok riskli bir seçim.",
+          "next": "RESULT_B2_2"
+        }
+      ]
+    },
+    "RESULT_A1_1": {
+      "npc_text": "Rica ederim, iyi günler.",
+      "options": []
+    },
+    "RESULT_A1_2": {
+      "npc_text": "Alıyoruz işte, hala konuşuyor...",
+      "options": []
+    },
+    "RESULT_A2_1": {
+      "npc_text": "İyi, ben de alıyorum zaten. Uzatmayalım.",
+      "options": []
+    },
+    "RESULT_A2_2": {
+      "npc_text": "Haddini bil yoksa fena olur!",
+      "options": []
+    },
+    "RESULT_B1_1": {
+      "npc_text": "Neyse, ben de biraz tepki gösterdim kusura bakma.",
+      "options": []
+    },
+    "RESULT_B1_2": {
+      "npc_text": "Çok oluyorsun ama ha! Alıyoruz dedik ya!",
+      "options": []
+    },
+    "RESULT_B2_1": {
+      "npc_text": "İyi, atıyorum. Sorun yok.",
+      "options": []
+    },
+    "RESULT_B2_2": {
+      "npc_text": "Geliyorum, şimdi görürsün gününü!",
+      "options": []
+    }
+  },
+  "bolum10": {
+    "START": {
+      "npc_text": "(Okul önünde bir öğrenci, diğerini hırpalıyor.)",
+      "options": [
+        {
+          "text": "Hey, burada neler oluyor? Bir sorun mu var, neden bu kadar gerginsiniz?",
+          "feedback": "Olaya sakin ve anlamaya çalışan bir tavırla yaklaştınız. Arabuluculukta ilk adım gerginliği azaltmaktır.",
+          "next": "PATH_A"
+        },
+        {
+          "text": "Bırak o çocuğu hemen! Kendinden zayıfları ezmeye utanmıyor musun sen?",
+          "feedback": "Sert ve yargılayıcı bir giriş yaptınız. Zorbalığa karşı durmak önemlidir ancak bu üslup çatışmayı tetikleyebilir.",
+          "next": "PATH_B"
+        }
+      ]
+    },
+    "PATH_A": {
+      "npc_text": "Sana ne oluyor? Biz aramızda hallediyoruz, yoluna git!",
+      "options": [
+        {
+          "text": "Aramızda hallediyoruz diyorsun ama arkadaşın pek öyle görünmüyor. Konuşarak çözebilirsiniz.",
+          "feedback": "Empati kurarak mağdurun durumuna dikkat çektiniz ve barışçıl bir çözüm önerdiniz.",
+          "next": "PATH_A1"
+        },
+        {
+          "text": "Beni aptal yerine koyma, çocuğu resmen sıkıştırmışsın. Derhal uzaklaş buradan!",
+          "feedback": "Gözlemine güvenip otoriter bir tavır takındınız. Zorbalığa karşı net bir sınır çizdiniz.",
+          "next": "PATH_A2"
+        }
+      ]
+    },
+    "PATH_B": {
+      "npc_text": "Hadi canım oradan! Çok kahramanlık yapmak istiyorsan sana da bir tane patlatayım!",
+      "options": [
+        {
+          "text": "Bak, kavga ederek hiçbir şeyi çözemezsin. Başın belaya girmeden şu işi burada bitir.",
+          "feedback": "Mantıklı bir uyarı yaparak karşıdakini olası sonuçlar hakkında düşünmeye sevk ettiniz.",
+          "next": "PATH_B1"
+        },
+        {
+          "text": "Gel de patlat bakalım! Senin gibilerin sadece dili uzundur, hadi görelim!",
+          "feedback": "Fiziksel bir meydan okumaya girdiniz. Bu durum etik olarak riskli ve şiddeti tırmandıran bir tercihtir.",
+          "next": "PATH_B2"
+        }
+      ]
+    },
+    "PATH_A1": {
+      "npc_text": "Konuşunca anlamıyor ki bu! Ama neyse, senin hatırına bırakıyorum şimdilik.",
+      "options": [
+        {
+          "text": "Doğru olanı yaptın, teşekkürler. Hadi herkes kendi yoluna.",
+          "feedback": "Başarılı bir arabuluculuk örneği sergileyip durumu teşekkürle kapattınız.",
+          "next": "RESULT_A1_1"
+        },
+        {
+          "text": "Bir daha seni böyle bir şey yaparken görmeyeyim, ona göre.",
+          "feedback": "Durum çözülmüşken tehditkar bir kapanış yaparak gerginliği canlı tuttunuz.",
+          "next": "RESULT_A1_2"
+        }
+      ]
+    },
+    "PATH_A2": {
+      "npc_text": "Bana emir verme! Sen kimsin ki beni kovuyorsun?",
+      "options": [
+        {
+          "text": "Kavga etmek istemiyorum, sadece bu davranışının yanlış olduğunu söylüyorum.",
+          "feedback": "Kişisel bir kavgadan kaçıp etik bir duruş sergilemeye devam ettiniz.",
+          "next": "RESULT_A2_1"
+        },
+        {
+          "text": "Git disipline şikayet edeyim de gör gününü!",
+          "feedback": "Kuralı hatırlatıp yasal yollara başvuracağınızı belirttiniz.",
+          "next": "RESULT_A2_2"
+        }
+      ]
+    },
+    "PATH_B1": {
+      "npc_text": "Tamam, uğraşamam seninle. Şanslısın çocuk, bir dahakine bu kadar kolay kurtulamazsn.",
+      "options": [
+        {
+          "text": "En mantıklısı bu. Kendine de başkasına da zarar verme.",
+          "feedback": "Sağduyulu bir yaklaşımla olayı sonlandırdınız.",
+          "next": "RESULT_B1_1"
+        },
+        {
+          "text": "Kuyruğunu kıstırıp kaçman en iyisi olur zaten.",
+          "feedback": "Geri adım atan kişiyi küçümseyerek yeni bir gerginlik yarattınız.",
+          "next": "RESULT_B1_2"
+        }
+      ]
+    },
+    "PATH_B2": {
+      "npc_text": "Sen istedin bunu! Gel buraya!",
+      "options": [
+        {
+          "text": "Tartışmayalım, sadece bu çocuğu rahat bırakmanı istiyorum.",
+          "feedback": "Son anda şiddetten kaçıp amaca odaklandınız.",
+          "next": "RESULT_B2_1"
+        },
+        {
+          "text": "Yüreğin varsa gel! Okulun arkasında bekliyorum!",
+          "feedback": "Okul sınırları içinde şiddeti kabul edip tırmandırdınız. Bu en düşük etik puanlı seçimdir.",
+          "next": "RESULT_B2_2"
+        }
+      ]
+    },
+    "RESULT_A1_1": {
+      "npc_text": "İyi, gidiyorum ben zaten.",
+      "options": []
+    },
+    "RESULT_A1_2": {
+      "npc_text": "Beni tehdit mi ediyorsun? Sabrımı zorlama!",
+      "options": []
+    },
+    "RESULT_A2_1": {
+      "npc_text": "Tamam, anladık. Kes sesini artık, gidiyoruz.",
+      "options": []
+    },
+    "RESULT_A2_2": {
+      "npc_text": "Git istediğine şikayet et, kimseden korkum yok!",
+      "options": []
+    },
+    "RESULT_B1_1": {
+      "npc_text": "Neyse ne, hadi eyvallah.",
+      "options": []
+    },
+    "RESULT_B1_2": {
+      "npc_text": "Gidiyoruz dedik, hala kaşınıyorsun!",
+      "options": []
+    },
+    "RESULT_B2_1": {
+      "npc_text": "Tamam, al arkadaşını git buradan.",
+      "options": []
+    },
+    "RESULT_B2_2": {
+      "npc_text": "Geliyorum ulan, bakalım kim zorbaymış!",
+      "options": []
+    }
+  }
+}
+  
+
+
