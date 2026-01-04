@@ -31,9 +31,20 @@ Oyunun her bir seviyesi belirli bir temel değer üzerine kurgulanmıştır:
 * **Veri Yönetimi:** Diyalog ağaçları **JSON** formatında dinamik olarak yönetilmektedir.
 * **Algoritma:** Özel **Metin Sarma (Text-Wrapping)** algoritması uygulanmıştır.
 
-## 🚀 Kurulum ve Başlatma
-
 ### 1. Projeyi Yerel Bilgisayara Yükleme
 Projeyi kendi bilgisayarınıza indirmek için terminale şu komutu yazın:
 ```bash
 git clone [https://github.com/kullaniciadi/ahlaki-deger-egitimi.git](https://github.com/kullaniciadi/ahlaki-deger-egitimi.git)
+```
+
+###2. Gerekli Kütüphanelerin Yüklenmesi
+Sisteminizde Python yüklü olduğundan emin olduktan sonra Pygame kütüphanesini kurun
+```bash 
+pip install pygame
+```
+
+###3. Oyunu Çalıştırma
+Proje klasörüne girin ve ana dosyayı şu komutla başlatın
+```bash 
+python main.py
+```
