@@ -37,6 +37,7 @@ Oyunun her bir seviyesi belirli bir temel değer üzerine kurgulanmıştır:
 Projeyi kendi bilgisayarınıza indirmek için terminale şu komutu yazın:
 ```bash
 git clone https://github.com/MusaHasimoglu/AHLAKI-DEGER-EGITIMI-OYUNU.git
+```
 
 ### 2. Gerekli Kütüphanelerin Yüklenmesi
 Sisteminizde Python yüklü olduğundan emin olduktan sonra Pygame kütüphanesini kurun
