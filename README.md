@@ -31,6 +31,28 @@ Oyunun her bir seviyesi belirli bir temel değer üzerine kurgulanmıştır:
 * **Veri Yönetimi:** Diyalog ağaçları **JSON** formatında dinamik olarak yönetilmektedir.
 * **Algoritma:** Özel **Metin Sarma (Text-Wrapping)** algoritması uygulanmıştır.
 
+---
+
+## 🎮 Kontroller ve Oynanış
+
+Oyun, akıcı bir deneyim için tamamen klavye üzerinden kontrol edilecek şekilde tasarlanmıştır.
+
+### ⌨️ Tuş Takımı
+| Aksiyon | Kontrol Tuşu |
+| :--- | :--- |
+| **Sola Hareket** | `A` |
+| **Sağa Hareket** | `D` |
+| **Diyalogları İlerletme** | `Space` (Boşluk Tuşu) |
+| **Seçim Yapma (1. Seçenek)** | `1` |
+| **Seçim Yapma (2. Seçenek)** | `2` |
+
+### 📖 Oynanış Detayları
+* **Karakter Hareketleri:** Karakterinizi sağa veya sola hareket ettirmek için `A` ve `D` tuşlarını kullanın.
+* **Hikaye Akışı:** Karşınıza çıkan metinleri ve diyalogları ilerletmek için `Space` (Boşluk) tuşuna basabilirsiniz.
+* **Karar Anları:** Bir ahlaki ikilem veya seçimle karşılaştığınızda, yapmak istediğiniz tercihe göre klavyenizden `1` veya `2` tuşuna basarak hikayenin gidişatını belirleyin.
+
+---
+
 ## 🚀 Kurulum ve Başlatma
 
 ### 1. Projeyi Yerel Bilgisayara Yükleme
