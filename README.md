@@ -82,3 +82,18 @@ python main.py
 Geliştirici: Musa Haşimoğlu
 
 Kurum: Ankara Üniversitesi, Bilgisayar ve Öğretim Teknolojileri Öğretmenliği (BÖTE) Bölümü
+
+---
+
+## 📜 Lisans (License)
+
+Bu proje **MIT Lisansı** altında lisanslanmıştır. 
+
+Bu lisans kapsamında:
+* **Kullanım:** Bu yazılımı ticari veya kişisel amaçlarla serbestçe kullanabilirsiniz.
+* **Değiştirme:** Kodları isteğinize göre düzenleyebilir ve geliştirebilirsiniz.
+* **Dağıtım:** Projenin kopyalarını başkalarıyla paylaşabilirsiniz.
+
+**Not:** Bu projenin kopyalanması veya kullanılması durumunda, orijinal yazara (size) atıfta bulunulması ve bu lisans metninin korunması gerekmektedir.
+
+---
